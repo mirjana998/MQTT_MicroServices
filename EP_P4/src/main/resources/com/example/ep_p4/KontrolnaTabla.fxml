@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ep_p4.KontrolnaTablaController">
+   <children>
+      <Label layoutX="165.0" layoutY="35.0" prefHeight="36.0" prefWidth="148.0" text="Kontrolna tabla">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Circle fx:id="redM1Ccl" fill="#ecbeb9" layoutX="100.0" layoutY="130.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="yellowM1Ccl" fill="#f7f1b7" layoutX="130.0" layoutY="130.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="greenM1Ccl" fill="#9ae493" layoutX="160.0" layoutY="130.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="40.0" layoutY="120.0" prefHeight="20.0" prefWidth="40.0" text="M1">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="210.0" text="M2">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Circle fx:id="greenM2Ccl" fill="#9ae493" layoutX="160.0" layoutY="220.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="yellowM2Ccl" fill="#f7f1b7" layoutX="130.0" layoutY="220.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="redM2Ccl" fill="#ecbeb9" layoutX="100.0" layoutY="220.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="40.0" layoutY="300.0" text="M3">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Circle fx:id="redM3Ccl" fill="#ecbeb9" layoutX="100.0" layoutY="310.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="yellowM3Ccl" fill="#f7f1b7" layoutX="130.0" layoutY="310.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="greenM3Ccl" fill="#9ae493" layoutX="160.0" layoutY="310.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="startM1Btn" layoutX="235.0" layoutY="117.0" mnemonicParsing="false" onAction="#startM1BtnClicked" prefHeight="20.0" prefWidth="50.0" />
+      <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="253.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/start.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="pauseM1Btn" layoutX="300.0" layoutY="117.0" mnemonicParsing="false" onAction="#pauseM1BtnClicked" prefHeight="25.0" prefWidth="50.0" />
+      <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="318.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/pause.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="stopM1Btn" layoutX="365.0" layoutY="117.0" mnemonicParsing="false" onAction="#stopM1BtnClicked" prefHeight="25.0" prefWidth="50.0" />
+      <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="383.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/stop.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="startM2Btn" layoutX="235.0" layoutY="207.0" mnemonicParsing="false" onAction="#startM2BtnClicked" prefHeight="20.0" prefWidth="50.0" />
+      <ImageView fitHeight="20.0" fitWidth="15.0" layoutX="253.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/start.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="pauseM2Btn" layoutX="300.0" layoutY="207.0" mnemonicParsing="false" onAction="#pauseM2BtnClicked" prefHeight="25.0" prefWidth="50.0" />
+      <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="318.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/pause.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="stopM2Btn" layoutX="365.0" layoutY="207.0" mnemonicParsing="false" onAction="#stopM2BtnClicked" prefHeight="25.0" prefWidth="50.0" />
+      <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="383.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/stop.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="startM3Btn" layoutX="235.0" layoutY="297.0" mnemonicParsing="false" onAction="#startM3BtnClicked" prefHeight="20.0" prefWidth="50.0" />
+      <ImageView fitHeight="20.0" fitWidth="15.0" layoutX="253.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/start.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="pauseM3Btn" layoutX="300.0" layoutY="297.0" mnemonicParsing="false" onAction="#pauseM3BtnClicked" prefHeight="25.0" prefWidth="50.0" />
+      <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="318.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/pause.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="stopM3Btn" layoutX="365.0" layoutY="297.0" mnemonicParsing="false" onAction="#stopM3BtnClicked" prefHeight="25.0" prefWidth="50.0" />
+      <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="383.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/stop.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
